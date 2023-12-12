@@ -1,0 +1,75 @@
+body{
+    color: #000;
+    font-family: arial;
+    font-size: 12pt;
+}
+table{
+    width: 100%;
+    background-image: url(img/Fon.gif);
+} 
+.main-menu{
+    list-style: none; 
+    margin: 0; 
+    padding-left: 0; 
+}
+.menu{
+    border: 1px solid red; 
+    border-bottom: 0;
+}
+a{
+    color: blueviolet;
+    display: block;
+}
+a:hover{
+    color: blue;
+}
+a:visited {
+    color: white; 
+}
+.data{
+    text-align: center;
+    height: 30px;
+    vertical-align: top;
+}
+.news{
+    text-align: justify;
+    height: 30px;
+    vertical-align: top;
+}
+.files{
+    vertical-align: top;
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
+p{
+    text-align: center;
+}
+tr{
+    position: relative;
+}
+.menu-img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 0px solid rgb(201, 12, 12)
+}
+.color1{
+    color: white;
+    background: rgba(116, 4, 150, 0.658);
+    text-align: center;
+}
+.color2{
+    color: white;
+    background: rgba(106, 90, 205, 0.76);
+    text-align: center;
+}
+.color3{
+    color: white;
+    background: rgba(72, 61, 139, 1);
+    text-align: center;
+}
+iframe{
+border: none;
+}

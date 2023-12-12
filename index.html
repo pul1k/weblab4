@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css">
+    <title>4 лабораторная</title>
+</head>
+<body>
+    <table cellpadding="0" cellspacing="0" width=100% height=100%>
+        
+        <tr class="color1">
+          <th rowspan="2" width="20%"> <img src="img/igor.jpg" width="43%"></th>
+          <th colspan="3" width="80%">
+            <img src="img/Titul.JPG">
+          </th>
+          
+        </tr>
+        <tr class="color1">
+          <td height="50px"><a href="sistem/home.html" target="contentFrame" class="link">Главная</a></td>
+          <td><a href="sistem/news.html" target="contentFrame" class="link">Новости</a></td>
+          <td><a href="sistem/file.html" target="contentFrame" class="link">Файлы</a></td>
+        </tr>
+        <tr class="color2">
+          <td width="15%" height="50px" class="color3"></td>
+          <td colspan="3" rowspan="4">
+            <iframe name="contentFrame" src="sistem/home.html" width=100% height=100%></iframe>
+          </td>
+        <tr rowspan="3" height="900px" class="color3">
+          <td class="color3">
+            <div class="menu-img">
+              <a href="sistem/home.html">
+                 <img class="menu-image" src="img/menu.JPG" alt="Меню" usemap="#Map">
+                    <map name="Map" class="menu-map">
+                        <area shape="rect" coords="0,0,289,54" href="sistem/home.html" target="contentFrame" class="link" alt="Главная">
+                        <area shape="rect" coords="0,55,289,108" href="sistem/news.html" target="contentFrame" class="link" alt="Новости">
+                        <area shape="rect" coords="0,109,289,164" href="sistem/file.html" target="contentFrame" class="link" alt="Файлы">
+                    </map>
+                </div>
+        </tr>
+    </table>
+
+</body>
+</html>

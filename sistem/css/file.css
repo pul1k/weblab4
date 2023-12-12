@@ -1,0 +1,37 @@
+h2{
+  text-align: center;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+ol{
+  text-align: center;
+}
+li{
+  list-style: none;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+/*цвет при клике*/
+a:hover {
+  background: rgb(83, 63, 184)
+}
+a.visited {
+  color: white;
+}
+.link a{
+  border: 3px;
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 2px;
+}
+.link li{
+  margin-bottom: 10px;
+}
+div{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh;
+}
